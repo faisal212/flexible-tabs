@@ -140,6 +140,9 @@ body{
     margin-left: 0.4375rem;
     
   }
+  .flexible-tabs .flexible-tab-item.is-active {
+    background: #004E58;
+  }
   .flexible-tabs .flexible-tab-content.is-active {
     display: block;
   }
