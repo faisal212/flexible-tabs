@@ -19,9 +19,11 @@ $(function () {
     $items.last().addClass('last-item');
 
 
-   
-     $('.load-more-button button').on('click', function(e)  {
-        $('.flexible-loader').addClass('visible');
+
+
+   /* ajax code to load more content */
+     $('.flexible-tabs .load-more-button button').on('click', function(e)  {
+        $('.flexible-tabs .flexible-loader').addClass('visible');
 
         $.ajax({
             url:'./morecontent.html',
